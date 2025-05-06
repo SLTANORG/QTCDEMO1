@@ -29,11 +29,21 @@
     "task.onboarding_storage-yf8_.databaseName": "{{task-type.storage.databaseName}}",
     "task.onboarding_storage-yf8_.internalSchema": "",
     "task.onboarding_storage-yf8_.taskSchema": "",
-    "task.onboarding_storage-yf8_.warehouseName": "{{task-type.storage.warehouseName}}"
+    "task.onboarding_storage-yf8_.warehouseName": "{{task-type.storage.warehouseName}}",
+    "task.transform1-_epo.databaseName": "{{task-type.transform.databaseName}}",
+    "task.transform1-_epo.internalSchema": "",
+    "task.transform1-_epo.taskSchema": "",
+    "task.transform1-_epo.warehouseName": "{{task-type.transform.warehouseName}}",
+    "task.transform2-ztex.databaseName": "{{task-type.transform.databaseName}}",
+    "task.transform2-ztex.internalSchema": "",
+    "task.transform2-ztex.taskSchema": "",
+    "task.transform2-ztex.warehouseName": "{{task-type.transform.warehouseName}}"
   },
   "idToNameMap": {
     "onboarding_landing-yf8-": "Onboarding_Landing",
-    "onboarding_storage-yf8_": "Onboarding_Storage"
+    "onboarding_storage-yf8_": "Onboarding_Storage",
+    "transform1-_epo": "Transform1",
+    "transform2-ztex": "Transform2"
   },
   "connectionProperties": {
     "{{id(connection, SL_space.Azure_Synapse_Analytics_Target_SLTAN2)}}": {
