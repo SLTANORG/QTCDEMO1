@@ -1,0 +1,42 @@
+{
+  "transformedTableLocal": {
+    "transformedColumnsLocal": [
+      {
+        "action": "ADD",
+        "columnName": "colx",
+        "newDataType": {
+          "type": "INT1",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "expression": {
+          "expressionStatement": "",
+          "alias": []
+        },
+        "primaryKeyOrdinal": 0,
+        "ordinal": 0,
+        "nullable": false,
+        "addedColumnId": "c89991f3-468b-48fb-9b59-168137509c71",
+        "markAsMetadata": false
+      }
+    ]
+  },
+  "datasetId": "departments-dLeK",
+  "actionType": "LOCAL_MANIPULATION",
+  "scopeType": "COLUMN",
+  "scope": {
+    "whereOwnerName": "%",
+    "whereTableName": "DEPARTMENTS",
+    "whereColumnName": "%",
+    "whereDatatype": "UNSPECIFIED",
+    "whereColumnKeyAttribute": "ANY",
+    "whereColumnNullability": "ANY"
+  },
+  "enabled": true,
+  "internalRule": false,
+  "name": "DEPARTMENTS",
+  "id": "departments-7-VP",
+  "description": ""
+}

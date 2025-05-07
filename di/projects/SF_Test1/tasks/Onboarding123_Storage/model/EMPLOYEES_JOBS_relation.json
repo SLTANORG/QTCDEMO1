@@ -1,0 +1,25 @@
+{
+  "sourceEntity": {
+    "datasetId": "employees-dLeL",
+    "name": "EMPLOYEES",
+    "projectId": "{{ref(project.current.projectId)}}",
+    "taskId": "onboarding123_storage-dLeH"
+  },
+  "targetEntity": {
+    "datasetId": "jobs-dLeM",
+    "name": "JOBS",
+    "projectId": "{{ref(project.current.projectId)}}",
+    "taskId": "onboarding123_storage-dLeH"
+  },
+  "columnRelationships": [
+    {
+      "sourceColumn": "JOB_ID",
+      "targetColumn": "JOB_ID",
+      "sourceColumnId": "job_id",
+      "targetColumnId": "job_id"
+    }
+  ],
+  "name": "EMPLOYEES_JOBS_relation",
+  "description": "",
+  "id": "employees_jobs_relation-Cpr9"
+}

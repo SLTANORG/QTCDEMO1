@@ -1,0 +1,25 @@
+{
+  "sourceEntity": {
+    "datasetId": "departments-dLeK",
+    "name": "DEPARTMENTS",
+    "projectId": "{{ref(project.current.projectId)}}",
+    "taskId": "onboarding123_storage-dLeH"
+  },
+  "targetEntity": {
+    "datasetId": "locations-dLeN",
+    "name": "LOCATIONS",
+    "projectId": "{{ref(project.current.projectId)}}",
+    "taskId": "onboarding123_storage-dLeH"
+  },
+  "columnRelationships": [
+    {
+      "sourceColumn": "LOCATION_ID",
+      "targetColumn": "LOCATION_ID",
+      "sourceColumnId": "location_id",
+      "targetColumnId": "location_id"
+    }
+  ],
+  "name": "DEPARTMENTS_LOCATIONS_relation",
+  "description": "",
+  "id": "departments_locations_relation-wSTF"
+}

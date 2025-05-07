@@ -1,0 +1,97 @@
+{
+  "id": "$replicate$HR_locations",
+  "name": "HR_LOCATIONS",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "LOCATIONS",
+    "dbSchema": "{{task.onboarding123_landing-dLeG:null$_$HR.schema}}",
+    "columns": [
+      {
+        "name": "LOCATION_ID",
+        "ordinal": 1,
+        "nullable": false,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "INT2",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "flags": "NONE"
+      },
+      {
+        "name": "STREET_ADDRESS",
+        "ordinal": 2,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "flags": "NONE"
+      },
+      {
+        "name": "POSTAL_CODE",
+        "ordinal": 3,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 12,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "flags": "NONE"
+      },
+      {
+        "name": "CITY",
+        "ordinal": 4,
+        "nullable": false,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 30,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "flags": "NONE"
+      },
+      {
+        "name": "STATE_PROVINCE",
+        "ordinal": 5,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 25,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "flags": "NONE"
+      },
+      {
+        "name": "COUNTRY_ID",
+        "ordinal": 6,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "flags": "NONE"
+      }
+    ],
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "$replicate$HR_countries",
+  "name": "HR_COUNTRIES",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "COUNTRIES",
+    "dbSchema": "HR",
+    "dbName": "SUALE_TARGET_DB",
+    "columns": [
+      {
+        "name": "COUNTRY_ID",
+        "ordinal": 1,
+        "nullable": false,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "STRING",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "flags": "NONE"
+      },
+      {
+        "name": "COUNTRY_NAME",
+        "ordinal": 2,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "flags": "NONE"
+      },
+      {
+        "name": "REGION_ID",
+        "ordinal": 3,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 38,
+          "scale": 10,
+          "originalTypeFull": ""
+        },
+        "flags": "NONE"
+      }
+    ],
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

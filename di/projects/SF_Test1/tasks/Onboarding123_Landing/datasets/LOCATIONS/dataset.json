@@ -1,0 +1,16 @@
+{
+  "id": "locations",
+  "name": "LOCATIONS",
+  "type": "LANDING",
+  "inputDatasets": [
+    {
+      "datasetId": "$replicate$HR_locations",
+      "name": "LOCATIONS",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "onboarding123_landing-dLeG",
+      "schema": "{{task.onboarding123_landing-dLeG:null$_$HR.schema}}"
+    }
+  ],
+  "virtualDataset": false,
+  "description": ""
+}

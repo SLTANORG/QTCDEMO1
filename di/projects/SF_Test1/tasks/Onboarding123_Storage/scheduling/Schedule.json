@@ -1,0 +1,19 @@
+{
+  "enabled": false,
+  "schedulingType": "TIME_BASED",
+  "timeBasedScheduling": {
+    "schedule": [
+      "RRULE:FREQ=MINUTELY;INTERVAL=15;BYSECOND=0"
+    ],
+    "startDateTime": "2023-10-26T05:19:05.773Z",
+    "timezone": "Etc/UTC"
+  },
+  "eventBasedScheduling": {
+    "eventSchedulingType": "ANY_INPUT_TASK",
+    "triggerApps": []
+  },
+  "id": "schedule-dLeI",
+  "name": "Schedule",
+  "description": "",
+  "version": "1"
+}

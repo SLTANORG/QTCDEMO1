@@ -1,0 +1,25 @@
+{
+  "sourceEntity": {
+    "datasetId": "locations-dLeN",
+    "name": "LOCATIONS",
+    "projectId": "{{ref(project.current.projectId)}}",
+    "taskId": "onboarding123_storage-dLeH"
+  },
+  "targetEntity": {
+    "datasetId": "countries-dLeJ",
+    "name": "COUNTRIES",
+    "projectId": "{{ref(project.current.projectId)}}",
+    "taskId": "onboarding123_storage-dLeH"
+  },
+  "columnRelationships": [
+    {
+      "sourceColumn": "COUNTRY_ID",
+      "targetColumn": "COUNTRY_ID",
+      "sourceColumnId": "country_id",
+      "targetColumnId": "country_id"
+    }
+  ],
+  "name": "LOCATIONS_COUNTRIES_relation",
+  "description": "",
+  "id": "locations_countries_relation-w_nD"
+}

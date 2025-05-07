@@ -1,0 +1,69 @@
+{
+  "id": "$replicate$HR_jobs",
+  "name": "HR_JOBS",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "JOBS",
+    "dbSchema": "{{task.onboarding123_landing-dLeG:null$_$HR.schema}}",
+    "columns": [
+      {
+        "name": "JOB_ID",
+        "ordinal": 1,
+        "nullable": false,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "STRING",
+          "length": 10,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "flags": "NONE"
+      },
+      {
+        "name": "JOB_TITLE",
+        "ordinal": 2,
+        "nullable": false,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 35,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "flags": "NONE"
+      },
+      {
+        "name": "MIN_SALARY",
+        "ordinal": 3,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "flags": "NONE"
+      },
+      {
+        "name": "MAX_SALARY",
+        "ordinal": 4,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "flags": "NONE"
+      }
+    ],
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

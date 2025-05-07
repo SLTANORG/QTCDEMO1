@@ -1,0 +1,23 @@
+{
+  "id": "countries-dLeJ",
+  "name": "COUNTRIES",
+  "type": "STORAGE",
+  "inputDatasets": [
+    {
+      "datasetId": "countries",
+      "name": "COUNTRIES",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "onboarding123_landing-dLeG"
+    }
+  ],
+  "datasetAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "virtualDataset": false,
+  "description": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sourceEntity": {
+    "datasetId": "employees-dLeL",
+    "name": "EMPLOYEES",
+    "projectId": "{{ref(project.current.projectId)}}",
+    "taskId": "onboarding123_storage-dLeH"
+  },
+  "targetEntity": {
+    "datasetId": "departments-dLeK",
+    "name": "DEPARTMENTS",
+    "projectId": "{{ref(project.current.projectId)}}",
+    "taskId": "onboarding123_storage-dLeH"
+  },
+  "columnRelationships": [
+    {
+      "sourceColumn": "DEPARTMENT_ID",
+      "targetColumn": "DEPARTMENT_ID",
+      "sourceColumnId": "department_id",
+      "targetColumnId": "department_id"
+    }
+  ],
+  "name": "EMPLOYEES_DEPARTMENTS_relation",
+  "description": "",
+  "id": "employees_departments_relation-dLeR"
+}
